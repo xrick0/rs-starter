@@ -2,7 +2,7 @@ var botao = document.createElement('button');
 
 var body = document.querySelector('body');
 
-var textoDoBotao = document.createTextNode('CLICA AQUI, VAI!');
+var textoDoBotao = document.createTextNode('Clique aqui!');
 
 botao.appendChild(textoDoBotao);
 
