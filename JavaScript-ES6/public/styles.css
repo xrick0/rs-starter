@@ -24,11 +24,7 @@ body {
   justify-content: center;
 }
 
-body h1 {
-  font-size: 50px;
-}
-
-#container a {
+.itembutton {
   width: 90%;
   justify-content: center;
   align-items: center;
@@ -44,8 +40,12 @@ body h1 {
   transition: filter 0.2s;
 }
 
-#container a:hover {
+.itembutton:hover {
   filter: brightness(70%);
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 #container {
@@ -54,8 +54,6 @@ body h1 {
   margin: auto;
   max-width: 800px;
   resize: vertical;
-  font: 400 14px Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
   display: flex;
   border-radius: 10px;
   flex-direction: column;
@@ -63,13 +61,32 @@ body h1 {
   justify-content: center;
 }
 
-body a {
+.title-link {
   color: black;
   font-size: 50px;
   text-decoration: none;
   font-weight: 500;
 }
 
-button:hover {
-  filter: brightness(70%);
+ul {
+  list-style: none;
+}
+
+li {
+  clear: both;
+  margin-top: 20px;
+}
+
+img {
+  width: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+p {
+  margin: 5px 0;
 }
